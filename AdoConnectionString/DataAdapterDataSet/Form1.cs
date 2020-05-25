@@ -24,7 +24,7 @@ namespace DataAdapterDataSet
 
             SqlCommandBuilder commandBuilder;
             
-
+            
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.AllowUserToAddRows = false;
             using (SqlConnection connection = new SqlConnection(connectionString))
