@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoCommands", "AdoCommands\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapterDataSet", "DataAdapterDataSet\DataAdapterDataSet.csproj", "{59901547-A5E7-4149-9F91-D47E23E2FFA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oneToManyRelationship", "oneToManyRelationship\oneToManyRelationship.csproj", "{A265DAEC-72E3-4985-AE59-80291136DF02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{59901547-A5E7-4149-9F91-D47E23E2FFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59901547-A5E7-4149-9F91-D47E23E2FFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59901547-A5E7-4149-9F91-D47E23E2FFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A265DAEC-72E3-4985-AE59-80291136DF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A265DAEC-72E3-4985-AE59-80291136DF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A265DAEC-72E3-4985-AE59-80291136DF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A265DAEC-72E3-4985-AE59-80291136DF02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
