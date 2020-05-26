@@ -62,7 +62,6 @@
     <Compile Include="AllTeams.Designer.cs">
       <DependentUpon>AllTeams.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="DB\SoccerContext.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -80,6 +79,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamForm.Designer.cs">
+      <DependentUpon>TeamForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AllTeams.resx">
       <DependentUpon>AllTeams.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +103,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TeamForm.resx">
+      <DependentUpon>TeamForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\oneToManyRelationship.Models.Player.datasource" />
     <None Include="Properties\DataSources\oneToManyRelationship.Models.Team.datasource" />
